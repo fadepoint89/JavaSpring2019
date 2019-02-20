@@ -1,0 +1,42 @@
+Jared Wesolaski
+Module 1 - Lab 3
+
+::Class TV::
+
+:Instance Variables/State:
+    defaultChannel
+    inputMode
+    screenBrightness
+    volume
+    programmedChannels
+
+:Methods/Behavior:
+    changeDefaultChannel()
+    currentInputMode()
+    changeInputMode()
+    currentScreenBrightness()
+    changeScreenBrightness()
+    currentVolume()
+    volumeUp()
+    volumeDown()
+    clearProgrammedChannels()
+    changeProgrammedChannels()
+
+::Class Radio::
+
+:Instance Variables/State:
+    frequency
+    favoriteChannel
+    volume
+    modulation //AM or FM
+
+:Methods/Behavior:
+    currentFrequency()
+    changeFrequency()
+    setFavoriteChannel()
+    openFavoriteChannel()
+    currentVolume()
+    volumeUp()
+    volumeDown()
+    currentModulation()
+    changeModulation()
