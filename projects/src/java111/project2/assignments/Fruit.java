@@ -9,6 +9,7 @@ public class Fruit {
     * Private variables for a fruit
     * @param fruitName Will hold the name of the fruit
     * @param fruitQuantity Will hold the number of fruitName
+    */
     private String fruitName;
     private int fruitQuantity;
 

@@ -14,8 +14,10 @@ public class FruitCounter {
     int totalFruits;
 
     public void run() {
-        fruitList = new Fruit[5];
+        // Create an array of fruits
+        fruitList = new Fruit[6];
 
+        // Create fruit objects and place them in the array
         fruitList[0] = new Fruit();
         fruitList[1] = new Fruit();
         fruitList[2] = new Fruit();
@@ -23,6 +25,7 @@ public class FruitCounter {
         fruitList[4] = new Fruit();
         fruitList[5] = new Fruit();
 
+        // Assign information to each fruit object in the array
         fruitList[0].setFruitName("Orange");
         fruitList[0].setFruitQuantity(5);
 
@@ -40,6 +43,14 @@ public class FruitCounter {
 
         fruitList[5].setFruitName("Watermelon");
         fruitList[5].setFruitQuantity(10);
+
+        // Loop through the array and add the total fruits together
+        for (int counter = 0; counter < fruitList.length; counter++) {
+            totalFruits = totalFruits + fruitList[counter].getFruitQuantity();
+        }
+
+        // Display the total number of fruits in the array of fruit objects
+        System.out.println("Total fruits in the array: " + totalFruits);
 
     }
 }
