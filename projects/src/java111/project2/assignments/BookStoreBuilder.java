@@ -2,10 +2,11 @@
  *  It will be used to emphasize
  *  Unit 2 concepts and help you prepare
  *  for Project 2.
- *  @author //TODO add your name here
+ *  @author Jared Wesolaski
  */
 
 public class BookStoreBuilder {
+    
     // TODO Create a private instance variable to hold a BookStore object,
     // but do not instantiate it yet
 

@@ -2,11 +2,12 @@
  *  It will be used to emphasize
  *  Unit 2 concepts and help you prepare
  *  for Project 2.
- *  @author //TODO add your name here
+ *  @author Jared Wesolaski
  */
 
 public class BookStore {
 
+    Book[] newBookStore;
     // TODO Create the following instance variable, but do not instantiate it.
     // an array that will hold book objects
 
@@ -23,5 +24,3 @@ public class BookStore {
      *  what the method does. Be sure to include details about what parameters the
      * methods take and what they return, if anything.
      */
-
-}

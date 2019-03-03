@@ -5,11 +5,20 @@
  */
 public class Book {
 
+    /**
+    * Variables to hold information about the book
+    * @param title Title of the book
+    * @param author The author's name who wrote the book
+    * @param publicationYear The year the book was published
+    * @param numberOfCopies How many copies of the book will be held
+    * @param size How thick the book is in centimeters
+    */
+
     private String title;
     private String author;
     private int publicationYear;
     private int numberOfCopies;
-    private int size;
+    private double size;
 
     /**
 	* Returns value of title
@@ -79,7 +88,7 @@ public class Book {
 	* Returns value of size
 	* @return size
 	*/
-	public int getSize() {
+	public double getSize() {
 		return size;
 	}
 
@@ -87,28 +96,27 @@ public class Book {
 	* Sets new value of size
 	* @param size
 	*/
-	public void setSize(int size) {
+	public void setSize(double size) {
 		this.size = size;
 	}
 
 
-    // TODO Create a method to calculate the width on the bookshelf that all copies
-    // of this book take up (numberOfCopies * size)
-    public int shelfSize() {
-        return getNumberOfCopies() * getSize();
+    /**
+    * Method to calculate the width on the bookshelf that all copies
+    * of this book take up (numberOfCopies * size)
+    */
+    public double calculateTotalSize() {
+        return getNumberOfCopies() * (double) getSize();
     }
 
-    // TODO Create a method that returns a String containing the book information,
-    // including the distance this title takes up.
-    public void bookInformation() {
+    /**
+    * Method that returns a String containing the book information,
+    * including the distance this title takes up.
+    */
+    public void display() {
         System.out.println("Book Title: " + getTitle());
         System.out.println("Book Author: " + getAuthor());
         System.out.println("Book Publication Year: " + getPublicationYear());
         System.out.println("Book Number of Copies: " + getNumberOfCopies());
     }
-
-    // TODO Remember to include descriptive comments before each method explaining
-    // what the method does. Be sure to include details about what parameters the
-    // methods take and what they return, if anything.
-
 }

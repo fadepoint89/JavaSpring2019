@@ -1,7 +1,7 @@
 /** This class is the test drive
  *  for the BookStore assignment
  *
- *  @author // TODO add your name here
+ *  @author Jared Wesolaski
  */
 
 public class BookStoreTestDrive {
