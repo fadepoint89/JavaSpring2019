@@ -1,0 +1,37 @@
+Project 3 - Customer Class Prep Prep Code
+Author: Jared Wesolaski 
+
+================================================================================
+Declare a private string container named customerName to hold customers first
+and last name.
+
+Declare an private int container named yardWidth to hold the width dimension of
+the customer's yard.
+
+Declare an private int container named yardLength to hold the length dimension
+of the customer's yard.
+
+Declare an private int container named numberOfPayments to hold their number of
+payments decision.
+--------------------------------------------------------------------------------
+Declare public get and set methods for the above mentioned containers.
+--------------------------------------------------------------------------------
+Declare a method called getCustomerInformation() that will ask the user for an
+initial customer using the InputHelper class.
+
+    method getCustomerInformation() {
+        use InputHelper to "setCustomerName"
+        use InputHelper to "setYardWidth"
+        use InputHelper to "setYardLength"
+        use InputHelper to "setNumberOfPayments"
+    }
+--------------------------------------------------------------------------------
+Declare a method called additionalCustomers() that will use an if statement along
+with InputHelper to ask if the user would like to add an additional character.
+
+    method additionalCustomers() {
+        use InputHelper to ask for additional customers
+            IF (Y or y) {
+                run getCustomerInformation()
+            } else proceed to next step
+    }

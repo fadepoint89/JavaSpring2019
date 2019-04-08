@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7c96fedf-e3c1-4e27-b2f3-8a3afa2eeb5b" name="Default Changelist" comment="" />
+    <list default="true" id="7c96fedf-e3c1-4e27-b2f3-8a3afa2eeb5b" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/projects.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/src/java111/project2/ProcessStudents.java" beforeDir="false" afterPath="$PROJECT_DIR$/projects/src/java111/project2/ProcessStudents.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/src/java111/project2/Student.class" beforeDir="false" afterPath="$PROJECT_DIR$/projects/src/java111/project2/Student.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/src/java111/project2/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/projects/src/java111/project2/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/src/java111/project2/StudentTestDrive.java" beforeDir="false" afterPath="$PROJECT_DIR$/projects/src/java111/project2/StudentTestDrive.java" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -9,32 +15,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/projects/src/java111/project2/assignments/Book.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="157">
-              <caret line="94" column="7" selection-start-line="94" selection-start-column="7" selection-end-line="94" selection-end-column="7" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/projects/src/java111/project2/assignments/BookStore.java">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/projects/src/java111/project2/assignments/BookStoreBuilder.java">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/projects/src/java111/project2/assignments/BookStoreTestDrive.java">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -102,6 +83,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RunDashboard">
@@ -169,6 +151,13 @@
     </layout>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/projects/src/java111/project2/assignments/Book.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="157">
+          <caret line="103" column="7" selection-start-line="103" selection-start-column="7" selection-end-line="103" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/projects/src/java111/project2/assignments/BookStore.java">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -178,12 +167,8 @@
     <entry file="file://$PROJECT_DIR$/projects/src/java111/project2/assignments/BookStoreTestDrive.java">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/projects/src/java111/project2/assignments/Book.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="157">
-          <caret line="94" column="7" selection-start-line="94" selection-start-column="7" selection-end-line="94" selection-end-column="7" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/projects/src/java111/project4/labs/Animal.java">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
 </project>

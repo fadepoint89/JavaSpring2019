@@ -1,0 +1,44 @@
+Project 3 High Level Design
+Author: Jared Wesolaski 
+
+================================================================================
+Application Goal:
+
+The goal of this application is to enter a series of new clients for a summer
+lawn mowing service. When all clients and their data have been entered the
+application will output a report.
+================================================================================
+
+1. Application starts
+    a. Program will ask the user to enter a customer's information (customerName, Yard
+    Size (yardWidth, yardLength), and numberOfPayments).
+        1. Will create containers for the above mentioned.
+    b. Will then ask the user if they would like to enter another customer's
+    information. If yes, the program will then return to the customer submission
+    screen. If no, the program continues to the next step.
+        1. Will have an if statement to ask if the user would like to enter another
+        customer to the list.
+2. Application performs math for the cost of service
+    a. The application will use a formula to calculate the season's charge based
+    on yard size. yardSize: (yardWidth X yardLength)
+        1. If less than 500 sq. yards, charge is $25 per week (22 weeks).
+        2. If greater than or equal to 500 sq. yards and less then 800 sq. yards,
+        charge is $35 per week (22 weeks).
+        3. If greater than or equal to 800 sq. yards, charge is $50 per week (22
+        weeks).
+    b. The application will use a formula to calculate a service charge based on
+    the number of payments chosen.
+        1. If one payment is chosen there is no service charge.
+        2. If two payments are chosen, there is a $5 service charge per payment.
+        ($10)
+        3. If twenty-two payments are chosen, there is a $3 service charge per
+        payment. ($66)
+3. Application ends with a report
+    a. The application will display a report of every customer in the system.
+    b. It will display the customer's name, yard size, number of payments, payment
+    amount, and total cost.
+        1. A container (array) will be created to hold all of the customers.
+    c. After all of the customer's information is displayed it will end with a summary
+    of the total customers, number of square yards to mow, and the total revenue
+    for the summer.
+        1. A container will be created to hold this information.

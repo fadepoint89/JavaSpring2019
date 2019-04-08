@@ -1,0 +1,43 @@
+Project 3 - PaymentCalculation Class Prep Prep Code
+Author: Jared Wesolaski
+
+================================================================================
+Declare a private int container named SMALL_YARD_500 set to 500
+Declare a private int container named LARGE_YARD_800 set to 800
+Declare a private int container named LESS_THAN_500 set to 25 ($25 charge/22 weeks)
+Declare a private int container named UNDER_800 set to 35 ($35 charge/22 weeks)
+Declare a private int container named OVER_500 set to 50 ($50 charge/22 weeks)
+Declare a private int container named seasonCharge
+Declare a private int container named serviceCharge
+--------------------------------------------------------------------------------
+Declare public get and set methods for seasonCharge and serviceCharge
+--------------------------------------------------------------------------------
+Declare a method called calculateSeasonCharge() that will loop through each customer
+and calculate the season charge based on the yard size.
+
+    method calculateSeasonCharge() {
+        for loop to cycle through customers
+        caluculate total yard Size
+        if (yardSize < SMALL_YARD_500) {
+            seasonCharge = LESS_THAN_500
+        } else if (yardSize >= SMALL_YARD_500 && yardSize < LARGE_YARD_800) {
+            seasonCharge = UNDER_800
+        } else if (yardSize >= LARGE_YARD_800) {
+            seasonCharge = OVER_500
+        }
+    }
+--------------------------------------------------------------------------------
+Declare a method called calculateServiceCharge() that will loop through each customer
+and calculate if the customer will have a service charge based on the number of
+payments they chose.
+
+    method calculateServiceCharge() {
+        for loop to cycle through customers
+        if (numberOfPayments = 1) {
+            serviceCharge = 0
+        } else if (numberOfPayments = 2) {
+            serviceCharge = 10
+        } else if (numberOfPayments = 22) {
+            serviceCharge = 66
+        }
+    }

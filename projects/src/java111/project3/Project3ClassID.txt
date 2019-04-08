@@ -1,0 +1,28 @@
+Project 3 Class Identification
+Author: Jared Wesolaski 
+
+================================================================================
+The Customer class will contain all the containers for the customer's information
+as well as the if statement for deciding whether or not to enter another customer's
+information.
+--------------------------------------------------------------------------------
+It will have the following containers:
+customerName,
+yardWidth,
+yardLength
+numberOfPayments
+================================================================================
+The PaymentCalculation class will contain all the formula/math regarding the
+payment amount and service charges for each customer.
+--------------------------------------------------------------------------------
+It will have the following containers:
+seasonCharge
+serviceCharge
+================================================================================
+The Reports class will contain all of the statements to loop through all of the
+customers and display reports on each one's information and payment information.
+It will also have a method for looping through all of the customers and totaling
+up the amount of customers, the amount of yards to mow, and the amount of
+revenue that will be generated at the end of the season.
+================================================================================
+The LawnCareTestDrive class will contain the main method for running the program.

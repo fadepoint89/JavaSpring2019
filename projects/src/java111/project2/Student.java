@@ -1,89 +1,97 @@
-/**
-* Project 1 Part 1  - Student class file
-* Contains blueprint for a student
-*
-* @author Jared Wesolaski
-*/
+/** Student class that contains all the information for students and pulling their
+ *  their information as well as calculating their GPA. 
+ *
+ *  @author Jared Wesolaski
+ */
 public class Student {
-    /**
-    * @param studentName The student's name
-    * @param studentID The student's id number - defaults to 9999999
-    * @param totalCreditHours The student's total credit hours - defaults to 36
-    * @param totalGradePoints The student's total number of grade points - defaults to 100
-    */
+
+    /** private String to hold the student's name */
     private String studentName;
+
+        /** return student's name
+         *  @return studentName
+         */
+        public String getStudentName() {
+            return studentName;
+        }
+
+        /** set student's name
+         *  @param newStudentName
+         */
+        public void setStudentName(String newStudentName) {
+            studentName = newStudentName;
+        }
+
+
+    /** private int to hold student's id
+     *  (defaults to 9999999)
+     */
     private int studentID = 9999999;
-    private int totalCreditHours = 36;
-    private int totalGradePoints = 100;
 
-	/**
-	* Returns value of studentName
-	* @return studentName
-	*/
-	public String getStudentName() {
-		return studentName;
-	}
+        /** return student's id
+         *  @return studentID
+         */
+        public int getStudentID() {
+            return studentID;
+        }
 
-	/**
-	* Sets new value of studentName
-	* @param studentName
-	*/
-	public void setStudentName(String studentName) {
-		this.studentName = studentName;
-	}
+        /** set student's ID
+         * @param newStudentID
+         */
+        public void setStudentID(int newStudentID) {
+            studentID = newStudentID;
+        }
 
-	/**
-	* Returns value of studentID
-	* @return studentID
-	*/
-	public int getStudentID() {
-		return studentID;
-	}
+    /** private int to hold the student's total credit hours
+     *  (defaults to 36)
+     */
+    private int studentHours = 36;
 
-	/**
-	* Sets new value of studentID
-	* @param studentID
-	*/
-	public void setStudentID(int studentID) {
-		this.studentID = studentID;
-	}
+        /** return student's hours
+         *  @return studentHours
+         */
+        public int getStudentHours() {
+            return studentHours;
+        }
 
-	/**
-	* Returns value of totalCreditHours
-	* @return totalCreditHours
-	*/
-	public int getTotalCreditHours() {
-		return totalCreditHours;
-	}
+        /** set student's hours
+         *  @param newStudentHours
+         */
+        public void setStudentHours(int newStudentHours) {
+            studentHours = newStudentHours;
+        }
 
-	/**
-	* Sets new value of totalCreditHours
-	* @param totalCreditHours
-	*/
-	public void setTotalCreditHours(int totalCreditHours) {
-		this.totalCreditHours = totalCreditHours;
-	}
+    /** private int to hold the student's total number of grade points
+     *  (defaults to 100)
+     */
+    private int studentGradePoints = 100;
 
-	/**
-	* Returns value of totalGradePoints
-	* @return totalGradePoints
-	*/
-	public int getTotalGradePoints() {
-		return totalGradePoints;
-	}
+        /** return student's grade points
+         *  @return studentGradePoints
+         */
+        public int getStudentGradePoints() {
+            return studentGradePoints;
+        }
 
-	/**
-	* Sets new value of totalGradePoints
-	* @param totalGradePoints
-	*/
-	public void setTotalGradePoints(int totalGradePoints) {
-		this.totalGradePoints = totalGradePoints;
-	}
+        /** set student's grade points
+         *  @param newStudentGradePoints
+         */
+        public void setStudentGradePoints(int newStudentGradePoints) {
+            studentGradePoints = newStudentGradePoints;
+        }
 
-    /**
-    * Method to display the student's gpa using formula: gpa = totalGradePoints / totalCreditHours
-    */
-    public void displayGPA() {
-        System.out.println("Student GPA: " + (getTotalGradePoints() / getTotalCreditHours() ) );
+    public double calculateGPA() {
+        // gpa = grade points / credit hours
+        return (double) getStudentGradePoints() / getStudentHours();
+    }
+
+    public void display() {
+        // Display student's information and calculated GPA
+        System.out.println("Student Name: " + getStudentName());
+        System.out.println("Student ID: " + getStudentID());
+        System.out.println("Student Hours: " + getStudentHours());
+        System.out.println("studentGradePoints: " + getStudentGradePoints());
+        System.out.println("Student GPA: " + calculateGPA());
+        System.out.println("");
     }
 }

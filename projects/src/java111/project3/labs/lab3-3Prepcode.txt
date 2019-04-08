@@ -1,0 +1,72 @@
+Lab 3-3
+Author: Jared Wesolaski 
+
+Application 2
+
+PREPCODE for the RandomNumber Class:
+
+Declare a container to hold the number that will be randomly generated.
+    (preferably called randomNumber)
+
+--------------------------------------------------------------------------------
+Declare a method named generateNumber(). This method will use the Math.random()
+method to create a number between 0 and 100 and store it in the randomNumber
+container.
+--------------------------------------------------------------------------------
+
+Method: int generateNumber()
+    Use Math.random() method to create the number
+    Return results to randomNumber
+
+================================================================================
+
+PREPCODE for the EnteredNumber Class:
+
+Declare an int container for first entered number
+    (preferably userEnteredNumber)
+
+--------------------------------------------------------------------------------
+Declare a method called inputNumber(). This method will use the input helper
+method to ask the user for a number and store it into enteredNumberOne.
+--------------------------------------------------------------------------------
+
+Method: inputNumberOne()
+    Use InputHelper to prompt user to enter a number between 1 and 100 and store
+    in userEnteredNumber
+
+================================================================================
+
+PREPCODE for the CheckIt Class:
+
+Declare a boolean to for method to change when checking numbers. Initially set to
+    FALSE. (preferably named isNumberCorrect)
+
+--------------------------------------------------------------------------------
+Declare a method called checkNumber(). This method will check the user entered
+number against the randomly generated number to see if they match. If not it will
+inform the user the number is correct and ask for input again. If it is correct
+it will inform the user of their success.
+
+Declare a method called run(). This method will call the other methods and then
+perform a loop on the boolean value of isNumberCorrect until it equals TRUE. If isNumberCorrect
+is false it outputs a statement that userEnteredNumber is incorrect prompts inputNumber().
+--------------------------------------------------------------------------------
+
+Method: checkNumber()
+    IF userEnteredNumber is EQUAL to randomNumber
+        set isNumberCorrect to TRUE
+    ELSE
+        set isNumberCorrect to FALSE
+
+Method: run()
+    Call randomNumber()
+    Call inputNumber()
+    Call checkNumber()
+
+    WHILE isNumberCorrect = false
+        PRINT The number you entered is incorrect.
+        Call inputNumber()
+
+    WHIle isNumberCorrect
+        PRINT The number is correct and say goodbye.
+        BREAK loop.

@@ -1,0 +1,56 @@
+Lab 3-1
+Author: Jared Wesolaski 
+
+Application 1
+    Goal: Calculate the sum, difference, multiplication product, and division product
+    of two numbers entered by a user. Keep asking for more input and showing output
+    until the user enters a 0.
+    Setup: When the application is launched it will ask the user for numbers and
+    then output the calculations.
+
+    a. Application starts
+        1. Create two containers for the numbers the user will enter.
+    b. Application asks the user for two numbers
+        1. Assign the two numbers to the containers.
+        2. Application will calculate the sum of the two numbers.
+        3. Application will calculate the difference of the two numbers.
+        4. Application will calculate the multiplication product of the two numbers.
+        5. Application will calculate the division product of the two numbers.
+        6. Application will display results of all calculations.
+    c. Application ends when user enters a 0.
+
+Application 2
+    Goal: Play a guessing game where the user has to guess a number between 1 and 100.
+    The program lets the user know if their guess is too big or too small until they guess right.
+    Setup: The application randomly picks a number and then starts asking for guesses.
+    The user is informed of the results of each guess until they guess right. Then it says goodbye.
+
+    a. Application starts
+        1. Create a random number between 1 and 100.
+        2. Creates a container to hold the user's guess.
+    b. Application perform check.
+        1. Application will convert user's guess to an int and store in the container.
+        2. Application will check to see if the user's guess is equal to the randomly
+           generated number.
+        3. If number is incorrect, they are prompted with a new guess and assigned to
+           the guess container overriding the original.
+    c. Application ends when the guess is correct and states results along with Goodbye.
+
+Application 3
+    Goal: The application will give a quote based on a color that the user inputs.
+    The quotes are related to the color. For example, if the user enters “red”,
+    the application might output "'When in doubt, make a red painting.' - Kay WalkingStick".
+    Setup: The application loads a file that contains a list of colors and quotes
+    for each color. The user is asked to input a color and then gives them the quote.
+    If the user enters a color that the application does not have in its file then
+    the user is asked to try again until they enter a valid color.
+
+    a. Application starts
+        1. Loads file of all the colors and corresponding quotes.
+        2. Creates a container to hold the user's entered color.
+    b. Application begins checking colors.
+        1. Asks the user to enter a color and stores the result in the created container.
+        2. Checks the user entered color against the color library that was loaded.
+        3. Displays the corresponding quote with entered color.
+        4. If color is not in the file, user is prompted to try again with a different color.
+    c. Application ends when it finds a matching color and displays the result.
